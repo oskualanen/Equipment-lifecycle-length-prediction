@@ -1,9 +1,15 @@
-# my-new-project
-Building AI course project
+# Using machine learning to predict the optimal lifecycle length of equipment.
 
-# This is an idea to use the K nearest neighbour algorithm to predict the optimal lifecycle length of a laboratory equipment. In this model, Y is the age of the instrument at the point when it is disposed. There are a total of values of X (X1-X4) consisting of parameters that are most likely to affecting the optimal length of the instrument. These may include: (1) the number of failure events, (2) the utilization hours of the instrument, (3) the years left of support from the instrument provider and (4) the number of backup instruments in the laboratory.
+This is the final course project for the Building AI course.
 
-## This is KKN model
+## Summary and background
+
+This is an idea to use the K nearest neighbour algorithm to predict the optimal lifecycle length of an equipment. In this model, Y is the age of the instrument at the point when it is disposed. There are a total of values of X (X1-X4) consisting of parameters that are most likely to affecting the optimal length of the instrument.
+
+Evaluating the best lifecycle length of equipment is an important task in a business setting, because purchasing new equipment costs money (from tens of thousands of euros to millions of euros). As such, it is resonable to expect that the equipment should be utilized in a production settings for as long as possible.
+
+## This is the proposed KKN model:
+
 import pandas as pd
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.neighbors import KNeighborsRegressor
@@ -42,3 +48,12 @@ predictions = knn_reg.predict(X_test)
 # Evaluate the model's performance
 print("Mean squared error:", mean_squared_error(y_test, predictions))
 print("R-squared:", r2_score(y_test, predictions))
+
+
+## Challenges
+
+The optimal lifecycle length obtained with this model is only as good as the data used to train the model. As such, only accurate data should be used. 
+
+## Acknowledgements 
+
+This idea is an original idea, which attemps to utilize a KNN algorithm for predicting lifecycle length. 
