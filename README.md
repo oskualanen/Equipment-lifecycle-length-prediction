@@ -54,7 +54,7 @@ print("R-squared:", r2_score(y_test, predictions))
 
 ## Challenges
 
-The optimal lifecycle length obtained with this model is only as good as the data used to train the model. As such, only accurate data should be used. 
+The optimal lifecycle length obtained with this model is only as good as the data used to train the model. As such, only accurate data should be used. Additionally, the used ML model is likely not the best one for lifecycle length prediction. Other ML algorithms like XGboost or random forest could be utilized as well. Again, this depends on the amount of data (and the quality.
 
 ## Acknowledgements 
 
