@@ -4,7 +4,7 @@ Building AI course project
 
 ## Summary
 
-This is an idea to use the K nearest neighbour algorithm to predict the optimal lifecycle length of an equipment. In this model, Y is the age of the instrument at the point when it is disposed. There are a total of values of X (X1-X4) consisting of parameters that are most likely to affecting the optimal length of the instrument.
+This is an idea to use the K nearest neighbour algorithm to predict the optimal lifecycle length of an equipment. In this model, Y is the age of the instrument at the point when it is disposed. There are a total of values of X (X1-X4) consisting of parameters that are most likely to affecting the optimal lifecycle length of the equipment.
 
 ## Background
 
