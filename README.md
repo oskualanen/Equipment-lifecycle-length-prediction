@@ -2,9 +2,11 @@
 
 This is the final course project for the Building AI course.
 
-## Summary and background
+## Summary
 
 This is an idea to use the K nearest neighbour algorithm to predict the optimal lifecycle length of an equipment. In this model, Y is the age of the instrument at the point when it is disposed. There are a total of values of X (X1-X4) consisting of parameters that are most likely to affecting the optimal length of the instrument.
+
+## Background
 
 Evaluating the best lifecycle length of equipment is an important task in a business setting, because purchasing new equipment costs money (from tens of thousands of euros to millions of euros). As such, it is resonable to expect that the equipment should be utilized in a production settings for as long as possible.
 
