@@ -56,4 +56,4 @@ The optimal lifecycle length obtained with this model is only as good as the dat
 
 ## Acknowledgements 
 
-This idea is an original idea, which attemps to utilize a KNN algorithm for predicting lifecycle length. 
+This idea is an original idea, which attemps to utilize a KNN algorithm for predicting lifecycle length of equipment. 
