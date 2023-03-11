@@ -1,6 +1,6 @@
 # Using machine learning to predict the optimal lifecycle length of equipment.
 
-This is the final course project for the Building AI course.
+Building AI course project
 
 ## Summary
 
